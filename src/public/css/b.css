@@ -1,0 +1,273 @@
+.header {
+    padding-top: 40px;
+}
+
+.header-main {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.kome {
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.name-group,
+.sex-group {
+    height: 150px;
+    width: 95%;
+    margin-left: 5%;
+    display: flex;
+}
+
+.name-title {
+    width: 28%;
+}
+
+.name-content {
+    width: 100%;
+}
+
+.name1 {
+    line-height: 75px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.name {
+    line-height: 150px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.name-text1 {
+    outline: none;
+    font-size: 20px;
+    width: 15%;
+    height: 80px;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.name-text2 {
+    outline: none;
+    font-size: 20px;
+    width: 15%;
+    height: 80px;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.name-rei {
+    display: flex;
+}
+
+.name-rei1 {
+    width: 44%;
+    margin-left: 3%;
+    font-weight: bold;
+    opacity: 0.3;
+}
+
+.mail-group,
+.post-group,
+.address-group,
+.building-group,
+.opinion-group {
+    display: flex;
+    height: 150px;
+    width: 95%;
+    margin-left: 5%;
+}
+
+.sex-title {
+    width: 27.4%;
+}
+
+.sex-content {
+    width: 100%;
+}
+
+.sex-text {
+    margin-top: 30px;
+    height: 80%;
+}
+
+.sex-text1 {
+    outline: none;
+    height: 80px;
+    width: 90%;
+    border-radius: 0.5rem;
+    border: none;
+}
+.mail-title {
+    width: 22%;
+}
+
+.post-title,
+.address-title,
+.building-title,
+.opinion-title {
+    width: 21.5%;
+}
+
+.mail-content {
+    width: 80%;
+}
+
+.mail-text {
+    margin-top: 30px;
+}
+
+.mail-text1 {
+    outline: none;
+    height: 80px;
+    width: 90%;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.mail-rei {
+    margin-top: 15px;
+    margin-left: 3%;
+    font-weight: bold;
+    opacity: 0.3;
+}
+
+.mark {
+    font-size: 25px;
+    margin-top: 60px;
+}
+
+.post-content {
+    margin-top: 35px;
+    width: 77.8%;
+}
+
+.post-text1 {
+    outline: none;
+    height: 80px;
+    width: 80%;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.post-rei {
+    margin-top: 5px;
+    margin-left: 5%;
+    font-weight: bold;
+    opacity: 0;
+}
+
+.address-content {
+    width: 77.8%;
+}
+
+.address-text {
+    margin-top: 35px;
+}
+
+.address-text1 {
+    outline: none;
+    height: 80px;
+    width: 88%;
+    border-radius: 0.5rem;    
+    border: none;
+}
+
+.address-rei {
+    margin-top: 5px;
+    margin-left: 3%;
+    font-weight: bold;
+    opacity: 0.3;
+}
+
+.building-content {
+    width: 77.8%;
+}
+
+.building-text {
+    margin-top: 35px;
+}
+
+.building-text1 {
+    outline: none;
+    height: 80px;
+    width: 88%;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.building-rei {
+    margin-top: 5px;
+    margin-left: 3%;
+    font-weight: bold;
+    opacity: 0.3;
+}
+
+.opinion-content {
+    width: 77.8%;
+}
+
+.opinion-text {
+    margin-top: 35px;
+}
+
+.opinion-text1 {
+    outline: none;
+        resize: none;
+        height: 180px;
+        width: 88%;
+        border-radius: 0.5rem;
+        border: none;
+}
+
+.form-button {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.form-button-submit {
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+.form-syusei{
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+}
+.form-syusei1{
+    border: none;
+    background-color: #ffffff;
+}
+
+.line1 {
+    position: absolute;
+    left: 50%;
+    top: 5px;
+    border-bottom: 1px solid;
+    width: 40px;
+}
+.line2 {
+    position: absolute;
+        right: 50%;
+        top: 5px;
+        border-bottom: 1px solid;
+        width: 40px;
+}
+.form-error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+/* {
+    outline: 2px solid rgb(20, 43, 147);
+}

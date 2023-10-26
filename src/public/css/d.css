@@ -1,0 +1,211 @@
+.title {
+    width: 100%;
+}
+.title1 {
+    text-align: center;
+    font-weight: bold;
+}
+.form-search {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.box {
+    
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #000000;
+}
+.box1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+
+.box2,.box3{
+    width: 100%;
+    display: flex;
+    padding-bottom: 30px;
+}
+.box-day,.box-mail,.box-name {
+    width: 15%;
+}
+.box4 {
+    text-align: center;
+}
+.box4-button {
+    font-weight: bold;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 0.3rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.reset {
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.reset1 {
+    border: none;
+    background-color: #ffffff;
+}
+
+.line1 {
+    position: absolute;
+    left: 50%;
+    top: 5px;
+    border-bottom: 1px solid;
+    width: 40px;
+}
+
+.line2 {
+    position: absolute;
+    right: 50%;
+    top: 5px;
+    border-bottom: 1px solid;
+    width: 40px;
+}
+.name,.day,.mail,.sex {
+    font-size: 15px;
+}
+.sex-text {
+    width: 55%;
+}
+.box-sex {
+    padding-left:30px ;    
+}
+.input3[type="radio"],
+.input2[type="radio"],
+.input1[type="radio"] {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+}
+
+.input1[type="radio"] {
+    width: 100px;
+    height: 120px;
+    border-radius: 100px;
+    position: relative;
+    vertical-align: sub;
+    left: 40px;
+}
+
+.input2[type="radio"] {
+    width: 100px;
+    height: 120px;
+    border-radius: 100px;
+    position: relative;
+    vertical-align: sub;
+    left: 100px;
+}
+.input3[type="radio"] {
+    width: 100px;
+    height: 120px;
+    border-radius: 100px;
+    position: relative;
+    vertical-align: sub;
+}
+.input1[type="radio"]::before,
+.input1[type="radio"]::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+}
+
+.input2[type="radio"]::before,
+.input2[type="radio"]::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+}
+.input3[type="radio"]::before,
+.input3[type="radio"]::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+}
+.input3[type="radio"]::before,
+.input1[type="radio"]::before,
+.input2[type="radio"]::before {
+    background-color: #fff;
+    border: 2px solid #918f8f;
+    height: 40px;
+    width: 40px;
+    left: 40px;
+    top: -4px;
+}
+
+.input3[type="radio"]::after,
+.input1[type="radio"]::after,
+.input2[type="radio"]::after {
+    background-color: #000000;
+    opacity: 0;
+    height: 10px;
+    width: 10px;
+    left: 55px;
+    top: 10px;
+}
+.input3[type="radio"]:checked::after,
+.input1[type="radio"]:checked::after,
+.input2[type="radio"]:checked::after {
+    opacity: 1;
+}
+
+.label1 {
+    font-size: 18px;
+    position: absolute;
+    top: 128px;
+    left: 785px;
+}
+
+.label2 {
+    font-size: 18px;
+    position: absolute;
+    top: 128px;
+    left: 975px;
+}
+.label3 {
+    font-size: 18px;
+    position: absolute;
+    top:128px;
+    left: 630px;
+}
+.input-box1,.input-box2,.input-box3 {
+    border-radius: 0.5rem;
+    height: 50px;
+}
+.bou {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.input-box22 {
+    height: 50px;
+border-radius: 0.5rem;  
+}
+/* {
+    outline: 2px solid rgb(20, 43, 147);
+}

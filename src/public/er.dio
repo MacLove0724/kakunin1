@@ -1,0 +1,37 @@
+<mxfile host="65bd71144e">
+    <diagram id="Xn8SBHGZoEx5fpFhi7En" name="ページ1">
+        <mxGraphModel dx="411" dy="355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="10" value="data" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="30" width="180" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;span style=&quot;color: rgb(219, 222, 225); font-family: &amp;quot;gg sans&amp;quot;, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;ヒラギノ角ゴ ProN W3&amp;quot;, &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;, メイリオ, Meiryo, Osaka, &amp;quot;MS PGothic&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; background-color: rgba(2, 2, 2, 0.06);&quot;&gt;lname&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="10">
+                    <mxGeometry x="25" y="30" width="130" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;span style=&quot;color: rgb(219, 222, 225); font-family: &amp;quot;gg sans&amp;quot;, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;ヒラギノ角ゴ ProN W3&amp;quot;, &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;, メイリオ, Meiryo, Osaka, &amp;quot;MS PGothic&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; background-color: rgba(2, 2, 2, 0.06);&quot;&gt;fname&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="10">
+                    <mxGeometry x="25" y="56" width="60" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;span style=&quot;color: rgb(219, 222, 225); font-family: &amp;quot;gg sans&amp;quot;, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;ヒラギノ角ゴ ProN W3&amp;quot;, &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;, メイリオ, Meiryo, Osaka, &amp;quot;MS PGothic&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; background-color: rgba(2, 2, 2, 0.06);&quot;&gt;sex&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="10">
+                    <mxGeometry x="25" y="82" width="60" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;span style=&quot;color: rgb(219, 222, 225); font-family: &amp;quot;gg sans&amp;quot;, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;ヒラギノ角ゴ ProN W3&amp;quot;, &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;, メイリオ, Meiryo, Osaka, &amp;quot;MS PGothic&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; background-color: rgba(2, 2, 2, 0.06);&quot;&gt;email&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="10">
+                    <mxGeometry x="27.5" y="108" width="55" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;span style=&quot;color: rgb(219, 222, 225); font-family: &amp;quot;gg sans&amp;quot;, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;ヒラギノ角ゴ ProN W3&amp;quot;, &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;, メイリオ, Meiryo, Osaka, &amp;quot;MS PGothic&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; background-color: rgba(2, 2, 2, 0.06);&quot;&gt;post&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="10">
+                    <mxGeometry x="27.5" y="130" width="60" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;span style=&quot;color: rgb(219, 222, 225); font-family: &amp;quot;gg sans&amp;quot;, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;ヒラギノ角ゴ ProN W3&amp;quot;, &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;, メイリオ, Meiryo, Osaka, &amp;quot;MS PGothic&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; background-color: rgba(2, 2, 2, 0.06);&quot;&gt;address&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="10">
+                    <mxGeometry x="25" y="156" width="60" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;span style=&quot;color: rgb(219, 222, 225); font-family: &amp;quot;gg sans&amp;quot;, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;ヒラギノ角ゴ ProN W3&amp;quot;, &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;, メイリオ, Meiryo, Osaka, &amp;quot;MS PGothic&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; background-color: rgba(2, 2, 2, 0.06);&quot;&gt;building&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="10">
+                    <mxGeometry x="25" y="182" width="60" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;span style=&quot;color: rgb(219, 222, 225); font-family: &amp;quot;gg sans&amp;quot;, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;ヒラギノ角ゴ ProN W3&amp;quot;, &amp;quot;Hiragino Kaku Gothic ProN&amp;quot;, メイリオ, Meiryo, Osaka, &amp;quot;MS PGothic&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; background-color: rgba(2, 2, 2, 0.06);&quot;&gt;opinion&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="10">
+                    <mxGeometry x="27.5" y="208" width="60" height="26" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

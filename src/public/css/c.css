@@ -1,0 +1,18 @@
+.form-comment {
+    padding-top: 350px;
+    text-align: center;
+}
+.form-button {
+    padding-top: 50px;
+    text-align: center;
+}
+.form-button1 {
+    font-weight: bold;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 0.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

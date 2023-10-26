@@ -1,0 +1,324 @@
+.header {
+    padding-top: 40px;
+}
+
+.header-main {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.kome {
+    margin-left: 10px;
+    color: rgb(253, 0, 0);
+}
+
+.name-group,
+.sex-group {
+    height: 150px;
+    width: 95%;
+    margin-left: 5%;
+    display: flex;
+}
+
+.name-title {
+    width: 28%;
+}
+
+.name-content {
+    width: 100%;
+}
+
+.name1 {
+    line-height: 75px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.name {
+    line-height: 150px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.name-text1 {
+    width: 44%;
+    height: 80px;
+    border-radius: 0.5rem;
+    opacity: 0.4;
+}
+
+.name-text2 {
+    margin-left: 2%;
+    width: 44%;
+    height: 80px;
+    border-radius: 0.5rem;
+    opacity: 0.4;
+}
+
+.name-rei {
+    display: flex;
+}
+
+.name-rei1 {
+    width: 44%;
+    margin-left: 3%;
+    font-weight: bold;
+    opacity: 0.3;
+}
+
+.mail-group,
+.post-group,
+.address-group,
+.building-group,
+.opinion-group {
+    display: flex;
+    height: 150px;
+    width: 95%;
+    margin-left: 5%;
+}
+
+.sex-title {
+    width: 27.4%;
+}
+
+.sex-content {
+    width: 100%;
+}
+
+.sex-text {
+    height: 80%;
+}
+
+.input-one[type="radio"],
+.input-two[type="radio"] {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+}
+
+.input-one[type="radio"] {
+    width: 100px;
+    height: 120px;
+    border-radius: 100px;
+    position: relative;
+    vertical-align: sub;
+}
+
+.input-two[type="radio"] {
+    width: 100px;
+    height: 120px;
+    border-radius: 100px;
+    position: relative;
+    vertical-align: sub;
+    left: 13vw;
+}
+
+.input-one[type="radio"]::before,
+.input-one[type="radio"]::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+}
+
+.input-two[type="radio"]::before,
+.input-two[type="radio"]::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+}
+
+.input-one[type="radio"]::before,
+.input-two[type="radio"]::before {
+    background-color: #fff;
+    border: 3px solid #918f8f;
+    height: 50px;
+    width: 50px;
+    left: 0px;
+}
+
+.input-one[type="radio"]::after,
+.input-two[type="radio"]::after {
+    background-color: #000000;
+    opacity: 0;
+    height: 15px;
+    width: 15px;
+    left: 18px;
+    top: 68px;
+}
+
+.input-one[type="radio"]:checked::after,
+.input-two[type="radio"]:checked::after {
+    opacity: 1;
+}
+
+.label1 {
+    font-size: 1.5vw;
+    position: absolute;
+    top: 370px;
+    left: 33%;
+}
+
+.label2 {
+    font-size: 1.5vw;
+    position: absolute;
+    top: 370px;
+    right: 42%;
+}
+
+.mail-title {
+    width: 22%;
+}
+
+.post-title,
+.address-title,
+.building-title,
+.opinion-title {
+    width: 21.5%;
+}
+
+.mail-content {
+    width: 80%;
+}
+
+.mail-text {
+    margin-top: 30px;
+}
+
+.mail-text1 {
+    height: 80px;
+    width: 90%;
+    border-radius: 0.5rem;
+    opacity: 0.4;
+}
+
+.mail-rei {
+    margin-top: 15px;
+    margin-left: 3%;
+    font-weight: bold;
+    opacity: 0.3;
+}
+
+.mark {
+    font-size: 25px;
+    margin-top: 60px;
+}
+
+.post-content {
+    margin-top: 35px;
+    width: 77.8%;
+}
+
+.p-postal-code {
+    margin-left: 15px;
+    height: 80px;
+    width: 88%;
+    border-radius: 0.5rem;
+    opacity: 0.4;
+}
+
+.post-rei {
+    margin-top: 5px;
+    margin-left: 5%;
+    font-weight: bold;
+    opacity: 0.3;
+}
+
+.address-content {
+    width: 77.8%;
+}
+
+.address-text {
+    margin-top: 35px;
+}
+
+.p-region,.p-locality,.p-street-address,.p-extended-address {
+    height: 80px;
+    width: 88%;
+    border-radius: 0.5rem;
+    opacity: 0.4;
+}
+
+.address-rei {
+    margin-top: 5px;
+    margin-left: 3%;
+    font-weight: bold;
+    opacity: 0.3;
+}
+
+.building-content {
+    width: 77.8%;
+}
+
+.building-text {
+    margin-top: 35px;
+}
+
+.building-text1 {
+    height: 80px;
+    width: 88%;
+    border-radius: 0.5rem;
+    opacity: 0.4;
+}
+
+.building-rei {
+    margin-top: 5px;
+    margin-left: 3%;
+    font-weight: bold;
+    opacity: 0.3;
+}
+
+.opinion-content {
+    width: 77.8%;
+}
+
+.opinion-text {
+    margin-top: 35px;
+}
+
+.opinion-text1 {
+    
+    outline: none;
+    resize: none;
+    height: 180px;
+    width: 88%;
+    border-radius: 0.5rem;
+    opacity: 0.8;
+}
+
+.form-button {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.form-button-submit {
+    padding: 10px;
+    width: 15%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.form-error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+/* {
+    outline: 2px solid rgb(20, 43, 147);
+}
